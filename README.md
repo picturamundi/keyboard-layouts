@@ -1,4 +1,4 @@
-# Custom keyboars layouts for Dvorak typists.
+# Custom keyboars layouts for Dvorak typists on macOS
 
 - **Dvorak International QWERTY-command**: a Dvorak layout for typing various accents and diacritics with dead keys.
 - **30% International**: an international layout with more practical dead key placement for small keyboards.
