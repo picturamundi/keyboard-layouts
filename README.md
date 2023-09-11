@@ -4,4 +4,4 @@
 - **30% International**: an international layout with more practical dead key placement for small keyboards.
 - **Dvorak to QWERTY**: convert your external Dvorak keyboard running its own firmware to QWERTY with no configuration necessary.
 
-More details about these layouts — and other cool keyboard stuff — at [picturamundi.com/keyboard-layouts](https://picturamundi.com/keyboard-layouts).
+Find more details about these layouts, installation guides, and other cool keyboard stuff at [picturamundi.com/keyboard-layouts](https://picturamundi.com/keyboard-layouts).
