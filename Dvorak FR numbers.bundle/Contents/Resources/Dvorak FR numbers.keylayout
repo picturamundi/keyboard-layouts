@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 359 on 2023-08-19 at 18:54 (EDT)-->
-<!--Last edited by Ukelele version 359 on 2023-08-19 at 19:50 (EDT)-->
-<keyboard group="126" id="-24342" name="Dvorak Intl Q⌘" maxout="1">
+<!--Last edited by Ukelele version 359 on 2023-09-12 at 17:03 (MDT)-->
+<keyboard group="126" id="-32322" name="Dvorak FR numbers" maxout="1">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -68,26 +68,26 @@
             <key code="7" output="q"/>
             <key code="8" output="j"/>
             <key code="9" output="k"/>
-            <key code="10" action="`"/>
+            <key code="10" action="` 1"/>
             <key code="11" output="x"/>
-            <key code="12" action="&#x0027;"/>
+            <key code="12" output="&#x0027;"/>
             <key code="13" output=","/>
             <key code="14" output="."/>
             <key code="15" output="p"/>
             <key code="16" output="f"/>
             <key code="17" action="y"/>
-            <key code="18" output="1"/>
-            <key code="19" output="2"/>
-            <key code="20" output="3"/>
-            <key code="21" output="4"/>
-            <key code="22" output="6"/>
-            <key code="23" output="5"/>
-            <key code="24" output="]"/>
-            <key code="25" output="9"/>
-            <key code="26" output="7"/>
-            <key code="27" output="["/>
-            <key code="28" output="8"/>
-            <key code="29" output="0"/>
+            <key code="18" output="&#x0026;"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="("/>
+            <key code="24" action="]"/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
+            <key code="27" action=")"/>
+            <key code="28" output="!"/>
+            <key code="29" action="0"/>
             <key code="30" output="="/>
             <key code="31" output="r"/>
             <key code="32" output="g"/>
@@ -100,7 +100,7 @@
             <key code="39" output="-"/>
             <key code="40" output="t"/>
             <key code="41" output="s"/>
-            <key code="42" output="\"/>
+            <key code="42" action="\"/>
             <key code="43" output="w"/>
             <key code="44" output="z"/>
             <key code="45" output="b"/>
@@ -108,7 +108,7 @@
             <key code="47" output="v"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
-            <key code="50" output="`"/>
+            <key code="50" action="@"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -174,26 +174,26 @@
             <key code="7" output="Q"/>
             <key code="8" output="J"/>
             <key code="9" output="K"/>
-            <key code="10" action="~"/>
+            <key code="10" action="~ 1"/>
             <key code="11" output="X"/>
-            <key code="12" action="&#x0022;"/>
+            <key code="12" output="&#x0022;"/>
             <key code="13" output="&#x003C;"/>
             <key code="14" output="&#x003E;"/>
             <key code="15" output="P"/>
             <key code="16" output="F"/>
             <key code="17" action="Y"/>
-            <key code="18" output="!"/>
-            <key code="19" output="@"/>
-            <key code="20" output="#"/>
-            <key code="21" output="$"/>
-            <key code="22" action="^"/>
-            <key code="23" output="%"/>
-            <key code="24" output="}"/>
-            <key code="25" output="("/>
-            <key code="26" output="&#x0026;"/>
-            <key code="27" output="{"/>
-            <key code="28" output="*"/>
-            <key code="29" output=")"/>
+            <key code="18" output="1"/>
+            <key code="19" output="2"/>
+            <key code="20" output="3"/>
+            <key code="21" action="4 1"/>
+            <key code="22" output="6"/>
+            <key code="23" action="5"/>
+            <key code="24" action="}"/>
+            <key code="25" output="9"/>
+            <key code="26" output="7"/>
+            <key code="27" action="°"/>
+            <key code="28" output="8"/>
+            <key code="29" output="0"/>
             <key code="30" output="+"/>
             <key code="31" output="R"/>
             <key code="32" output="G"/>
@@ -214,7 +214,7 @@
             <key code="47" output="V"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
-            <key code="50" output="~"/>
+            <key code="50" action="#"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -780,7 +780,7 @@
             <key code="7" output="x"/>
             <key code="8" output="c"/>
             <key code="9" output="v"/>
-            <key code="10" output=""/>
+            <key code="10" output="`"/>
             <key code="11" output="b"/>
             <key code="12" output="q"/>
             <key code="13" output="w"/>
@@ -1215,8 +1215,58 @@
         <action id="&#x0022;">
             <when state="none" next="diaeresis"/>
         </action>
+        <action id="#">
+            <when state="none" output="#"/>
+            <when state="FRnum" output="~"/>
+        </action>
         <action id="&#x0027;">
             <when state="none" next="accute"/>
+        </action>
+        <action id="(">
+            <when state="none" output="("/>
+            <when state="FRnum" output="["/>
+        </action>
+        <action id=")">
+            <when state="none" output=")"/>
+            <when state="FRnum" output="]"/>
+        </action>
+        <action id="0">
+            <when state="none" output="à"/>
+            <when state="FRnum" output="À"/>
+        </action>
+        <action id="2">
+            <when state="none" output="é"/>
+            <when state="FRnum" output="É"/>
+        </action>
+        <action id="3">
+            <when state="none" output="*"/>
+        </action>
+        <action id="4">
+            <when state="none" output="€"/>
+            <when state="FRnum" output="$"/>
+        </action>
+        <action id="4 1">
+            <when state="none" output="4"/>
+            <when state="FRnum" output="£"/>
+        </action>
+        <action id="5">
+            <when state="none" output="5"/>
+            <when state="FRnum" output="{"/>
+        </action>
+        <action id="6">
+            <when state="none" output="§"/>
+        </action>
+        <action id="7">
+            <when state="none" output="è"/>
+            <when state="FRnum" output="È"/>
+        </action>
+        <action id="9">
+            <when state="none" output="ç"/>
+            <when state="FRnum" output="Ç"/>
+        </action>
+        <action id="@">
+            <when state="none" output="@"/>
+            <when state="FRnum" output="`"/>
         </action>
         <action id="A">
             <when state="none" output="A"/>
@@ -1267,11 +1317,22 @@
             <when state="none" output="Y"/>
             <when state="diaeresis" output="Ÿ"/>
         </action>
+        <action id="\">
+            <when state="none" next="FRnum"/>
+        </action>
+        <action id="]">
+            <when state="none" output="ù"/>
+            <when state="FRnum" output="Ù"/>
+        </action>
         <action id="^">
             <when state="none" next="circumflex"/>
         </action>
         <action id="`">
             <when state="none" next="grave"/>
+        </action>
+        <action id="` 1">
+            <when state="none" output="@"/>
+            <when state="FRnum" output="`"/>
         </action>
         <action id="a">
             <when state="none" output="a"/>
@@ -1322,11 +1383,23 @@
             <when state="none" output="y"/>
             <when state="diaeresis" output="ÿ"/>
         </action>
+        <action id="}">
+            <when state="none" output="%"/>
+        </action>
         <action id="~">
             <when state="none" next="tilde"/>
         </action>
+        <action id="~ 1">
+            <when state="none" output="#"/>
+            <when state="FRnum" output="~"/>
+        </action>
+        <action id="°">
+            <when state="none" output="°"/>
+            <when state="FRnum" output="}"/>
+        </action>
     </actions>
     <terminators>
+        <when state="FRnum" output="\"/>
         <when state="accute" output="&#x0027;"/>
         <when state="circumflex" output="^"/>
         <when state="diaeresis" output="&#x0022;"/>
