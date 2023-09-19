@@ -9,12 +9,18 @@ Bundles need to be placed in the `/Library/Keyboard Layouts` directory.
 
 Restart your machine.
 
-Then install the layout in `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate custom layouts in the `Others` category.
+Then install the layout by navigating to `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate custom layouts in the `Others` category.
 
 
 ## Dvorak International
 
-`Dvorak International` makes it easier for Dvorak users to type a number of diacritics and accents used in French, Spanish, and other languages. It does this by imitating the same system of dead-keys which many QWERTY users know thanks to the `U.S. International - PC` layout.
+`Dvorak International` makes it easier to type a number of diacritics and accents used in French, Spanish, and other languages. It does this by imitating the same system of dead-keys which many QWERTY users know thanks to the `U.S. International - PC` layout. These include the following:
+
+- `'` for acute accent (`é`) and cedilla (`ç`)
+- <code>`</code> for grave accent (`è`)
+- `^` for circumflex (`ê`)
+- `"` for dieresis (`ë`)
+- `~` for tilde diacritic (`ñ`)
 
 The layout also includes QWERTY commands.
 
@@ -30,11 +36,11 @@ The layout is meant to be used with external keyboards, and as such it is QWERTY
 
 As an alternate approach for typing French accents on Dvorak, this layouts replaces the Dvorak number row with an AZERTY number row — or very nearly.
 
-![](images/dvorak-fr-numbers.png)
+![](images/dvorak-fr-numbers.svg)
 
 A few modifications have been made in order to make the number row more Dvorak compatible.
 
-- Redundant characters are replaced (green)
+- Redundant characters are replaced (faded)
 - An additional layer is added for more inputs and is activated with a dead key. Among other things, this layer makes typing uppercase accented letters more practical than in AZERTY.
 
 
