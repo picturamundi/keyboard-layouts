@@ -27,7 +27,7 @@ The layout also includes QWERTY commands.
 
 ## 30% International
 
-`30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). Is uses the semi-colon as a dead key for the circumflex accent, rather than the caret symbol, the latter being not as accessible with small form-factors.
+`30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). It uses the semi-colon as a dead key for the circumflex accent, rather than the caret symbol, the latter being not as accessible with small form-factors.
 
 The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts are implemented directly on the external keyboard's controller.
 
