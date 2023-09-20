@@ -1,4 +1,4 @@
-# Custom macOS keyboard layouts
+# Custom macOS keyboard layouts ![](images/accent.png)
 
 The following keyboard layouts offer practical functionality to Dvorak typists and users of small keyboards on macOS.
 
