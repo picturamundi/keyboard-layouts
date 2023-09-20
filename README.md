@@ -17,7 +17,7 @@ Then install the layout by navigating to `System Settings > Keyboard > Keyboard 
 `Dvorak International` makes it easier to type a number of diacritics and accents used in French, Spanish, and other languages. It does this by imitating the same system of dead-keys which many QWERTY users know thanks to the `U.S. International - PC` layout. These include the following:
 
 - `'` for acute accent (`é`) and cedilla (`ç`)
-- <code>`</code> for grave accent (`è`)
+- `\`` for grave accent (`è`)
 - `^` for circumflex (`ê`)
 - `"` for dieresis (`ë`)
 - `~` for tilde diacritic (`ñ`)
