@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.unsavedukeleledocument</string>
+	<string>org.sil.ukelele.keyboardlayout.</string>
 	<key>CFBundleName</key>
-	<string>30% International</string>
+	<string></string>
 	<key>CFBundleVersion</key>
 	<string></string>
 </dict>

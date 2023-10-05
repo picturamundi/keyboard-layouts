@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 359 on 2023-08-19 at 18:54 (EDT)-->
-<!--Last edited by Ukelele version 359 on 2023-09-12 at 13:11 (MDT)-->
+<!--Last edited by Ukelele version 359 on 2023-10-05 at 15:34 (GMT+2)-->
 <keyboard group="126" id="-24342" name="Dvorak International" maxout="1">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -107,7 +107,7 @@
             <key code="46" output="m"/>
             <key code="47" output="v"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="49" action=" "/>
             <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -1212,6 +1212,14 @@
         </keyMap>
     </keyMapSet>
     <actions>
+        <action id=" ">
+            <when state="none" output=" "/>
+            <when state="accute" output="&#x0027;"/>
+            <when state="circumflex" output="^"/>
+            <when state="diaeresis" output="&#x0022;"/>
+            <when state="grave" output="`"/>
+            <when state="tilde" output="~"/>
+        </action>
         <action id="&#x0022;">
             <when state="none" next="diaeresis"/>
         </action>
