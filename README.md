@@ -27,9 +27,25 @@ The layout also includes QWERTY commands.
 
 ## 30% International
 
-`30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). It uses the semi-colon as a dead key for the circumflex accent, rather than the caret symbol, the latter being not as accessible with small form-factors.
+`30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). It exclusively uses alpha-block inputs for dead keys, making diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
 
-The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts are implemented directly on the external keyboard's controller.
+Dead keys which remain unchanged:
+
+- `'` for acute accent (`é`) and cedilla (`ç`)
+- `"` for dieresis (`ë`)
+
+New 30% dead keys:
+
+- `;` for circumflex (`ê`).
+- `,` for grave accent (`è`).
+- `<` (`shift-comma`) for tilde diacritic (`ñ`)
+
+For ease of use, a couple of rules have been added for how dead-keys terminate to regular output:
+
+- While the space key causes semi-colon and comma to terminate to their regular outputs, just as with any other dead key, it also inserts a typographical space following these two characters. Practically, this allows the regular typing experience to remain unchanged despite these two additional dead keys.
+- The apostrophe `'` produces a typographic apostrophe `’` (or right single quotation mark) when terminated with the space bar. In order to obtain a regular apostrophe, terminate with the escape key.
+
+The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
 
 
 ## Dvorak FR numbers
