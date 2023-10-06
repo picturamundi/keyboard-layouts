@@ -2,7 +2,7 @@
 
 The following keyboard layouts offer practical functionality to Dvorak typists and users of small keyboards on macOS.
 
-Since these layouts run on your macOS machine, they can be used simultaneously to any custon firmware you've installed on an external keyboard, no configuration necessary.
+Since these layouts run on your macOS machine, they can be used simultaneously to any custom firmware you've installed on an external keyboard, no configuration necessary.
 
 ## Installation
 
