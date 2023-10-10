@@ -41,10 +41,12 @@ New 30% dead keys:
 - `,` for grave accent (`è`).
 - `<` (`shift-comma`) for tilde diacritic (`ñ`)
 
-For ease of use, a couple of rules have been added for how dead-keys terminate to regular output:
+For ease of use, a few other additional practical dead-key-enabled features have been added to this layout:
 
-- While the space key causes semi-colon and comma to terminate to their regular outputs, just as with any other dead key, it also inserts a typographical space following these two characters. Practically, this allows the regular typing experience to remain unchanged despite these two additional dead keys.
-- The apostrophe `'` produces a typographic apostrophe `’` (or right single quotation mark) when terminated with the space bar. In order to obtain a regular apostrophe, terminate with the escape key.
+- While the space key causes semi-colon and comma to terminate to their regular outputs, just as with any other dead key, it also inserts a  space following these two characters. Practically, this allows the regular typing experience to remain unchanged despite these two additional dead keys.
+- The apostrophe `'` produces a typographic apostrophe `’` (or right single quotation mark) when terminated with the space bar. In order to obtain a regular apostrophe, terminate with the escape key or some other letter.
+- In French, non-breaking spaces are regularly used alongside of punctuation, preceding question marks, exclamation points, colons, and semi-colons. For this reason, the space key also operates as a dead key; when followed by any of the aforementioned punctuation, a non-breaking space will automatically be used. This has no effect on regular typing.
+- Two additional dead-keys are added for other international characters: right angled bracket and left angled bracket. This simplifies the task of typing guillemets, or Spanish and French quotation marks. A double left angled bracket will output a left guillemet `«` followed by a non-breaking space; a double right angled bracket will output a right guillemet `»` preceded by a non-breaking space.
 
 The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
 

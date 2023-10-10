@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2023-10-05 at 15:45 (GMT+2)-->
-<keyboard group="126" id="-31796" name="30% International" maxout="2">
+<!--Last edited by Ukelele version 359 on 2023-10-10 at 16:47 (GMT+2)-->
+<keyboard group="126" id="-12701" name="30% International" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
     </layouts>
@@ -167,7 +167,7 @@
             <key code="15" output="R"/>
             <key code="16" action="Y"/>
             <key code="17" output="T"/>
-            <key code="18" output="!"/>
+            <key code="18" action="!"/>
             <key code="19" output="@"/>
             <key code="20" output="#"/>
             <key code="21" output="$"/>
@@ -190,13 +190,13 @@
             <key code="38" output="J"/>
             <key code="39" action="&#x0022;"/>
             <key code="40" output="K"/>
-            <key code="41" output=":"/>
+            <key code="41" action=": 1"/>
             <key code="42" output="|"/>
             <key code="43" action="&#x003C;"/>
-            <key code="44" output="?"/>
+            <key code="44" action="?"/>
             <key code="45" action="a17"/>
             <key code="46" output="M"/>
-            <key code="47" output="&#x003E;"/>
+            <key code="47" action="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="a16"/>
             <key code="50" action="~"/>
@@ -980,11 +980,16 @@
         </keyMap>
     </keyMapSet>
     <actions>
+        <action id="!">
+            <when state="none" output="!"/>
+            <when state="space" output=" !"/>
+        </action>
         <action id="&#x0022;">
             <when state="none" next="diaeresis"/>
         </action>
-        <action id="&#x003C;">
-            <when state="none" next="tilde-30%"/>
+        <action id="&#x003E;">
+            <when state="none" next="right-guillemet"/>
+            <when state="right-guillemet" output=" »"/>
         </action>
         <action id="&#x0027;">
             <when state="none" next="accute"/>
@@ -994,6 +999,10 @@
         </action>
         <action id=":">
             <when state="none" next="circumflex"/>
+        </action>
+        <action id=": 1">
+            <when state="none" output=":"/>
+            <when state="space" output=" :"/>
         </action>
         <action id=";">
             <when state="none" next="circumflex"/>
@@ -1009,6 +1018,15 @@
         </action>
         <action id="; 4">
             <when state="none" next="circumflex-30%"/>
+            <when state="space" output=" ;"/>
+        </action>
+        <action id="&#x003C;">
+            <when state="none" next="tilde-30%"/>
+            <when state="tilde-30%" output="« "/>
+        </action>
+        <action id="?">
+            <when state="none" output="?"/>
+            <when state="space" output=" ?"/>
         </action>
         <action id="C">
             <when state="none" output="C"/>
@@ -1121,7 +1139,7 @@
             <when state="s5" output="ü"/>
         </action>
         <action id="a16">
-            <when state="none" output=" "/>
+            <when state="none" next="space"/>
             <when state="accute" output="’"/>
             <when state="circumflex" output="^"/>
             <when state="circumflex-30%" output="; "/>
@@ -1237,11 +1255,13 @@
         <when state="diaeresis" output="&#x0022;"/>
         <when state="grave" output="`"/>
         <when state="grave-30%" output=","/>
+        <when state="right-guillemet" output="&#x003E;"/>
         <when state="s1" output="`"/>
         <when state="s2" output="´"/>
         <when state="s3" output="ˆ"/>
         <when state="s4" output="˜"/>
         <when state="s5" output="¨"/>
+        <when state="space" output=" "/>
         <when state="tilde" output="~"/>
         <when state="tilde-30%" output="&#x003C;"/>
     </terminators>
