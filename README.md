@@ -28,27 +28,37 @@ The layout also includes QWERTY commands.
 
 ## 30% International
 
-`30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). It exclusively uses alpha-block inputs for dead keys, making diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
+`30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). Its key features are the following:
 
-Dead keys which remain unchanged:
+- The layout exclusively uses alpha-block inputs for dead keys, making diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
+- `30% International` also includes additional experimental international features not included in `U.S. International` in order to simplify typing guillemets and non-braking spaces.
+
+The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
+
+### 30% diacritics
+
+All regular international diacritics dead-keys remain; only additional alternatives are added. The following are the regular international dead-keys:
 
 - `'` for acute accent (`é`) and cedilla (`ç`)
+- `` ` `` for grave accent (`è`)
+- `^` for circumflex (`ê`)
 - `"` for dieresis (`ë`)
+- `~` for tilde diacritic (`ñ`)
 
-New 30% dead keys:
+New 30% dead-key alternatives for hard-to-access keys:
 
 - `;` for circumflex (`ê`).
 - `,` for grave accent (`è`).
 - `<` (`shift-comma`) for tilde diacritic (`ñ`)
 
+### Other 30% features
+
 For ease of use, a few other additional practical dead-key-enabled features have been added to this layout:
 
 - While the space key causes semi-colon and comma to terminate to their regular outputs, just as with any other dead key, it also inserts a  space following these two characters. Practically, this allows the regular typing experience to remain unchanged despite these two additional dead keys.
-- The apostrophe `'` produces a typographic apostrophe `’` (or right single quotation mark) when terminated with the space bar. In order to obtain a regular apostrophe, terminate with the escape key or some other letter.
-- In French, non-breaking spaces are regularly used alongside of punctuation, preceding question marks, exclamation points, colons, and semi-colons. For this reason, the space key also operates as a dead key; when followed by any of the aforementioned punctuation, a non-breaking space will automatically be used. This has no effect on regular typing.
-- Two additional dead-keys are added for other international characters: right angled bracket and left angled bracket. This simplifies the task of typing guillemets, or Spanish and French quotation marks. A double left angled bracket will output a left guillemet `«` followed by a non-breaking space; a double right angled bracket will output a right guillemet `»` preceded by a non-breaking space.
-
-The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
+- The apostrophe key `'` produces a typographic apostrophe `’` (`U+2019`, or right single quotation mark) when terminated with the space bar. In order to obtain a regular apostrophe (`U+0027`), terminate with the escape key or some other letter.
+- In French, narrow non-breaking spaces (`U+202F`) are regularly used alongside of punctuation, preceding question marks, exclamation points, colons, and semi-colons. For this reason, the space key also operates as a dead key; when followed by any of the aforementioned punctuation, a narrow non-breaking space will automatically be used. This has no effect on regular typing.
+- Two additional dead-keys are added for other international characters: right angled bracket and left angled bracket. This simplifies the task of typing guillemets, or Spanish and French quotation marks. A double left angled bracket will output a left guillemet `«` followed by a (full-width) non-breaking space; a double right angled bracket will output a right guillemet `»` preceded by a non-breaking space.
 
 
 ## Dvorak FR numbers

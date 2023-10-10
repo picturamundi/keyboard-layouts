@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2023-10-10 at 16:47 (GMT+2)-->
-<keyboard group="126" id="-12701" name="30% International" maxout="2">
+<!--Last edited by Ukelele version 359 on 2023-10-10 at 19:49 (GMT+2)-->
+<keyboard group="126" id="-28186" name="30% International" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
     </layouts>
@@ -982,14 +982,10 @@
     <actions>
         <action id="!">
             <when state="none" output="!"/>
-            <when state="space" output=" !"/>
+            <when state="space" output=" !"/>
         </action>
         <action id="&#x0022;">
             <when state="none" next="diaeresis"/>
-        </action>
-        <action id="&#x003E;">
-            <when state="none" next="right-guillemet"/>
-            <when state="right-guillemet" output=" »"/>
         </action>
         <action id="&#x0027;">
             <when state="none" next="accute"/>
@@ -1002,7 +998,7 @@
         </action>
         <action id=": 1">
             <when state="none" output=":"/>
-            <when state="space" output=" :"/>
+            <when state="space" output=" :"/>
         </action>
         <action id=";">
             <when state="none" next="circumflex"/>
@@ -1018,15 +1014,19 @@
         </action>
         <action id="; 4">
             <when state="none" next="circumflex-30%"/>
-            <when state="space" output=" ;"/>
+            <when state="space" output=" ;"/>
         </action>
         <action id="&#x003C;">
             <when state="none" next="tilde-30%"/>
             <when state="tilde-30%" output="« "/>
         </action>
+        <action id="&#x003E;">
+            <when state="none" next="right-guillemet"/>
+            <when state="right-guillemet" output=" »"/>
+        </action>
         <action id="?">
             <when state="none" output="?"/>
-            <when state="space" output=" ?"/>
+            <when state="space" output=" ?"/>
         </action>
         <action id="C">
             <when state="none" output="C"/>
