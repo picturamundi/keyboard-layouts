@@ -6,7 +6,7 @@ Since these layouts run on your macOS machine, they can be used simultaneously t
 
 ## Installation
 
-Bundles need to be placed in the `/Library/Keyboard Layouts` directory. 
+First, bundles need to be placed in the `/Library/Keyboard Layouts` directory. 
 
 Restart your machine.
 
@@ -69,7 +69,7 @@ As an alternate approach for typing French accents on Dvorak, this layouts repla
 
 A few modifications have been made in order to make the number row more Dvorak compatible.
 
-- Redundant characters are replaced (faded)
+- Redundant characters are replaced (faded on the diagram above)
 - An additional layer is added for more inputs and is activated with a dead key. Among other things, this layer makes typing uppercase accented letters more practical than in AZERTY.
 
 
