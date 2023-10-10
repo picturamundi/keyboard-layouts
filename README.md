@@ -30,8 +30,8 @@ The layout also includes QWERTY commands.
 
 `30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). Its key features are the following:
 
-- The layout exclusively uses alpha-block inputs for dead keys, making diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
-- `30% International` also includes additional experimental international features not included in `U.S. International` in order to simplify typing guillemets and non-braking spaces.
+- The layout offers the option to exclusively use alpha-block inputs for dead keys. This makes diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
+- `30% International` also includes additional inputs not included in `U.S. International` in order to simplify typing guillemets and non-braking spaces.
 
 The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
 
