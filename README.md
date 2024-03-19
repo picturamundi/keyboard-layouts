@@ -49,22 +49,17 @@ New 30% dead-key alternatives for hard-to-access keys:
 
 - `;` for circumflex (`ê`).
 - `,` for grave accent (`è`).
-- `<` (`shift-comma`) for tilde diacritic (`ñ`)
+- `.` for tilde diacritic (`ñ`)
 
-Using punctuation symbols like `;` and `,` as dead keys should not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids having to hit the space bar twice in a row.
+Aditional features:
 
+- The apostrophe key `'` produces a typographic apostrophe `’` (`U+2019`, or right single quotation mark) when tapped twice.
+- Using punctuation symbols like period, comma, and semi-colon as dead keys does not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids having to hit the space bar twice in a row.
 
-## 30% International+
+<!-- Perhaps ideally, these additional features should be implemented using text replacement software rather than directly in the layout:
 
-`30% International+` includes a few extra features not in `30% International`. The two layouts are separate not only because not all users will find the additional features helpful, but also because dead keys can sometimes cause issues, especially in input fields on the web. It's therefore often best to keep them to a minimum in order to avoid scenarios like incorrectly entering a password.
-
-Perhaps ideally, these additional features should be implemented using text replacement software rather than directly in the layout. That said, installing `30% International+` is an easier option.
-
-Additional features:
-
-- The apostrophe key `'` produces a typographic apostrophe `’` (`U+2019`, or right single quotation mark) when terminated with the space bar. In order to obtain a regular apostrophe (`U+0027`), terminate with the escape key or some other letter. (`30% International` will also input a typographical apostrophe if the apostrophe is hit twice).
 - In French, narrow non-breaking spaces (`U+202F`) are regularly used alongside of punctuation, preceding question marks, exclamation points, colons, and semi-colons. To facilitate typing these narrow non-breaking spaces, the aforementioned punctuation marks are turned into dead keys. When tapped once, they output their expected character; when tapped twice, they output a narrow non-breaking space followed by the character.
-- Two additional dead-keys are added for other international characters: right angled bracket and left angled bracket. This simplifies the task of typing guillemets, or Spanish and French quotation marks. A double left angled bracket will output a left guillemet `«` followed by a (full-width) non-breaking space; a double right angled bracket will output a right guillemet `»` preceded by a non-breaking space.
+- Two additional dead-keys are added for other international characters: right angled bracket and left angled bracket. This simplifies the task of typing guillemets, or Spanish and French quotation marks. A double left angled bracket will output a left guillemet `«` followed by a (full-width) non-breaking space; a double right angled bracket will output a right guillemet `»` preceded by a non-breaking space. -->
 
 
 ## Dvorak FR numbers
