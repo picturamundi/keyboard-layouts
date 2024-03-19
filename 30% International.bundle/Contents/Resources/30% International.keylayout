@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-03-19 at 18:38 (GMT+1)-->
+<!--Last edited by Ukelele version 396 on 2024-03-19 at 19:00 (GMT+1)-->
 <keyboard group="126" id="-23657" name="30% International" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
@@ -989,6 +989,7 @@
         </action>
         <action id="&#x0027;">
             <when state="none" next="accute"/>
+            <when state="accute" output="’"/>
         </action>
         <action id=",">
             <when state="none" next="grave-30%"/>
