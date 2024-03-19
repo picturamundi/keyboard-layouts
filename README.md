@@ -51,9 +51,16 @@ New 30% dead-key alternatives for hard-to-access keys:
 - `,` for grave accent (`è`).
 - `<` (`shift-comma`) for tilde diacritic (`ñ`)
 
-### Other 30% features
+### Input fields
 
-For ease of use, a few other additional practical dead-key-enabled features have been added to this layout:
+`30% International` differs form `30% International+` (below) in that the former attempts to keep dead keys to a minimum in order to cause fewest issues with web input fields. One example of these issues is that many password fields won't register the last character of your password if it's the terminator for a dead key.
+
+One option for using the additional features of `30% International+` without causing issues in input fields is to implement them using text replacement software rather than directly in the layout.
+
+
+## 30% International+
+
+For ease of use, a few other additional practical dead-key-enabled features not included in `30% International` have been added to `30% International+`:
 
 - While the space key causes semi-colon and comma to terminate to their regular outputs, just as with any other dead key, it also inserts a  space following these two characters. Practically, this allows the regular typing experience to remain unchanged despite these two additional dead keys.
 - The apostrophe key `'` produces a typographic apostrophe `’` (`U+2019`, or right single quotation mark) when terminated with the space bar. In order to obtain a regular apostrophe (`U+0027`), terminate with the escape key or some other letter.

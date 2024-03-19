@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-03-19 at 18:07 (GMT+1)-->
-<keyboard group="126" id="-1848" name="30% International" maxout="2">
+<!--Last edited by Ukelele version 396 on 2024-03-19 at 18:09 (GMT+1)-->
+<keyboard group="126" id="-6740" name="30% International+" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
     </layouts>
@@ -981,8 +981,9 @@
     </keyMapSet>
     <actions>
         <action id="!">
-            <when state="none" output="!"/>
+            <when state="none" next="space-exclamation-mark"/>
             <when state="space" output=" !"/>
+            <when state="space-exclamation-mark" output=" !"/>
         </action>
         <action id="&#x0022;">
             <when state="none" next="diaeresis"/>
@@ -997,8 +998,9 @@
             <when state="none" next="circumflex"/>
         </action>
         <action id=": 1">
-            <when state="none" output=":"/>
+            <when state="none" next="space-colon"/>
             <when state="space" output=" :"/>
+            <when state="space-colon" output=" :"/>
         </action>
         <action id=";">
             <when state="none" next="circumflex"/>
@@ -1014,18 +1016,19 @@
         </action>
         <action id="; 4">
             <when state="none" next="circumflex-30%"/>
-            <when state="circumflex-30%" output=";"/>
+            <when state="circumflex-30%" output=" ;"/>
             <when state="space" output=" ;"/>
         </action>
         <action id="&#x003C;">
             <when state="none" next="tilde-30%"/>
+            <when state="tilde-30%" output="« "/>
         </action>
         <action id="&#x003E;">
-            <when state="none" output="&#x003E;"/>
+            <when state="none" next="right-guillemet"/>
             <when state="right-guillemet" output=" »"/>
         </action>
         <action id="?">
-            <when state="none" output="?"/>
+            <when state="none" next="space-question-mark"/>
             <when state="space" output=" ?"/>
             <when state="space-question-mark" output=" ?"/>
         </action>
@@ -1141,9 +1144,12 @@
         </action>
         <action id="a16">
             <when state="none" output=" "/>
+            <when state="accute" output="’"/>
             <when state="circumflex" output="^"/>
+            <when state="circumflex-30%" output="; "/>
             <when state="diaeresis" output="&#x0022;"/>
             <when state="grave" output="`"/>
+            <when state="grave-30%" output=", "/>
             <when state="s1" output="`"/>
             <when state="s2" output="´"/>
             <when state="s3" output="ˆ"/>
