@@ -10,7 +10,7 @@ First, bundles need to be placed in the `/Library/Keyboard Layouts` directory.
 
 Restart your machine.
 
-Then install the layout by navigating to `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate custom layouts in the `Others` category.
+Then install the layout by navigating to `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate custom layouts in the bottommost `Others` category.
 
 
 ## Dvorak International
@@ -47,14 +47,14 @@ All regular international diacritics dead-keys remain; only additional alternati
 
 New 30% dead-key alternatives for hard-to-access keys:
 
-- `;` for circumflex (`ê`).
-- `,` for grave accent (`è`).
-- `.` for tilde diacritic (`ñ`)
+- `,` for grave accent (`è`)
+- `;` for circumflex (`ê`)
+- `:` for tilde diacritic (`ñ`)
 
-Aditional features:
+Additional features:
 
 - The apostrophe key `'` produces a typographic apostrophe `’` (`U+2019`, or right single quotation mark) when tapped twice.
-- Using punctuation symbols like period, comma, and semi-colon as dead keys does not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids having to hit the space bar twice in a row.
+- Using punctuation symbols like comma, colon, and semi-colon as dead keys does not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids having to hit the space bar twice in a row.
 
 <!-- Perhaps ideally, these additional features should be implemented using text replacement software rather than directly in the layout:
 
