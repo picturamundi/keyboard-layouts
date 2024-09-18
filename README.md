@@ -31,7 +31,7 @@ The layout also includes QWERTY commands.
 `30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). Its key features are the following:
 
 - The layout offers the option to exclusively use alpha-block inputs for dead keys. This makes diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
-- `30% International` also includes additional inputs not included in `U.S. International` in order to simplify typing guillemets and non-braking spaces.
+- `30% International` also includes one additional input not included in `U.S. International` in order to simplify typing typographic apostrophes[^1].
 
 The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
 
@@ -45,16 +45,17 @@ All regular international diacritics dead-keys remain; only additional alternati
 - `"` for dieresis (`ë`)
 - `~` for tilde diacritic (`ñ`)
 
-New 30% dead-key alternatives for hard-to-access keys:
+New dead-key alternatives for hard-to-access keys include:
 
 - `,` for grave accent (`è`)
 - `;` for circumflex (`ê`)
 - `:` for tilde diacritic (`ñ`)
 
+Using punctuation symbols like comma, semi-colon, and colon as dead keys does not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids needing to hit the space bar twice in a row: once to termimate and again in order to insert the space caracter.
+
 Additional features:
 
 - The apostrophe key `'` produces a typographic apostrophe `’` (`U+2019`, or right single quotation mark) when tapped twice.
-- Using punctuation symbols like comma, colon, and semi-colon as dead keys does not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids having to hit the space bar twice in a row.
 
 <!-- Perhaps ideally, these additional features should be implemented using text replacement software rather than directly in the layout:
 
@@ -79,3 +80,5 @@ A few modifications have been made in order to make the number row more Dvorak c
 `Dvorak to QWERTY` allows an external Dvorak keyboard to be used as a QWERTY keyboard even if the QWERTY layout is not included in its firmware.
 
 The layout achieves this conversion by mapping a QWERTY key's position to the QWERTY letter which occupies the position of that same key in the Dvorak layout.
+
+[^1]: This layout originally included a number of other additional features for typing tricky caracters from various european languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
