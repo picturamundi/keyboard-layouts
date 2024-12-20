@@ -16,7 +16,7 @@ Documentation quick-links:
 
 ## Installation
 
-Select the layout you wish to install from the list of `.zip` files above, then click the download button on the top right or the `view raw` link. Unzipping the downloaded archive will reveal a file with the `.bundle`extension.
+Select the layout you wish to install from the list of `.zip` files above or by clicking on the relevant heading in this document, then click the download button on the top right or the `view raw` link. Unzipping the downloaded archive will reveal a file with the `.bundle`extension.
 
 Bundles need to be placed in the `/Library/Keyboard Layouts` directory.
 
