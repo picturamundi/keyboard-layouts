@@ -18,6 +18,8 @@ To visualize a layout after installing, click the keyboard input icon in the men
 
 ## [Dvorak International](https://github.com/picturamundi/keyboard-layouts/blob/main/Dvorak%20International.bundle.zip)
 
+<a href="https://github.com/picturamundi/keyboard-layouts/blob/main/Dvorak%20International.bundle.zip" download>download</a>
+
 `Dvorak International` makes it easier to type a number of diacritics and accents used in French, Spanish, and other languages. It does this by imitating the same system of dead-keys which many QWERTY users know thanks to the `U.S. International - PC` layout. These include the following:
 
 - `'` for acute accent (`é`) and cedilla (`ç`)
@@ -87,7 +89,7 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 [^1]: This layout originally included a number of other additional features for typing tricky characters from various European languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
 
 
-## [Arabic - Vowelized](https://github.com/picturamundi/keyboard-layouts/blob/main/Arabic%20-%20Vowelized.zip)
+## [Arabic - Vowelized](https://github.com/picturamundi/keyboard-layouts/blob/main/Arabic%20-%20Vowelized.bundle.zip)
 
 `Arabic - Vowelized` facilitates typing vowelized Arabic text on a QWERTY keyboard. Below is a summary of its 4 core features: 
 
