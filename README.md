@@ -15,8 +15,6 @@ Then install the layout by navigating to `System Settings > Keyboard > Keyboard 
 
 ## Dvorak International
 
-[(Download)](https://github.com/picturamundi/keyboard-layouts/tree/main/Dvorak%20International.bundle/)
-
 `Dvorak International` makes it easier to type a number of diacritics and accents used in French, Spanish, and other languages. It does this by imitating the same system of dead-keys which many QWERTY users know thanks to the `U.S. International - PC` layout. These include the following:
 
 - `'` for acute accent (`é`) and cedilla (`ç`)
