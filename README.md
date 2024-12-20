@@ -103,7 +103,7 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 1. Based on QWERTY: `s` key outputs `س`, `n` key outputs `ن`, etc.
 2. Reduces the use of modifier keys for vowels and other diacritics.
     - Vowels are accessible without mods: `a` key outputs _fatha_ ` ـَ`, `i` key outputs _kasra_ `ـِ`, etc.
-    - Typing a _hamza_ `ء` before letters _alif_ `ا`, _alif maqsuura_ `ى`, or _waw_ `و`, will produce the corresponding characters with a _hamza_ diacritic: `أ` `ئ` `ؤ`.
+    - Typing a _hamza_ `ء` before letters _alif_ `ا`, _alif maqsura_ `ى`, or _waw_ `و`, will produce the corresponding characters with a _hamza_ diacritic: `أ` `ئ` `ؤ`.
     - Modifiers continue to be used for `إ` (`Shift-i`) and nuntation `ـً` `ـٍ` `ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`).
 3. Aims to be phonetically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
     - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
