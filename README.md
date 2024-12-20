@@ -6,7 +6,7 @@ Since these layouts run on your machine, they can be used simultaneously to any 
 
 ## Installation
 
-Select the layout you wish to install from the list of `.zip` files above, then click the download button on the top right. Unzipping the downloaded archive will reveal a file with the `.bundle`extension.
+Select the layout you wish to install from the list of `.zip` files above, then click the download button on the top right or the `view raw` link. Unzipping the downloaded archive will reveal a file with the `.bundle`extension.
 
 Bundles need to be placed in the `/Library/Keyboard Layouts` directory.
 
@@ -16,7 +16,7 @@ Then install the layout by navigating to `System Settings > Keyboard > Keyboard 
 
 To visualize a layout after installing, click the keyboard input icon in the menubar and select  `Show Keyboard Viewer` from the dropdown menu.
 
-## Dvorak International
+## [Dvorak International](https://github.com/picturamundi/keyboard-layouts/blob/main/Dvorak%20International.bundle.zip)
 
 `Dvorak International` makes it easier to type a number of diacritics and accents used in French, Spanish, and other languages. It does this by imitating the same system of dead-keys which many QWERTY users know thanks to the `U.S. International - PC` layout. These include the following:
 
@@ -29,7 +29,7 @@ To visualize a layout after installing, click the keyboard input icon in the men
 The layout also includes QWERTY commands.
 
 
-## 30% International
+## [30% International](https://github.com/picturamundi/keyboard-layouts/blob/main/30%25%20International.bundle.zip)
 
 `30% International` is a diacritics-focused layout based on `U.S. International` with small keyboards in mind (e.g. 30% or 40%). Its key features are the following:
 
@@ -66,7 +66,7 @@ Additional features:
 - Two additional dead-keys are added for other international characters: right angled bracket and left angled bracket. This simplifies the task of typing guillemets, or Spanish and French quotation marks. A double left angled bracket will output a left guillemet `«` followed by a (full-width) non-breaking space; a double right angled bracket will output a right guillemet `»` preceded by a non-breaking space. -->
 
 
-## Dvorak FR numbers
+## [Dvorak FR numbers](https://github.com/picturamundi/keyboard-layouts/blob/main/Dvorak%20FR%20numbers.bundle.zip)
 
 As an alternate approach for typing French accents on Dvorak, this layouts replaces the Dvorak number row with an AZERTY number row — or very nearly.
 
@@ -78,7 +78,7 @@ A few modifications have been made in order to make the number row more Dvorak c
 - An additional layer is added for more inputs and is activated with a dead key. Among other things, this layer makes typing uppercase accented letters more practical than in AZERTY.
 
 
-## Dvorak to QWERTY
+## [Dvorak to QWERTY](https://github.com/picturamundi/keyboard-layouts/blob/main/Dvorak%20to%20QWERTY.bundle.zip)
 
 `Dvorak to QWERTY` allows an external Dvorak keyboard to be used as a QWERTY keyboard even if the QWERTY layout is not included in its firmware.
 
