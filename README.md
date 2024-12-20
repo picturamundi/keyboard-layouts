@@ -4,7 +4,7 @@ The following keyboard layouts offer practical functionality to Dvorak typists, 
 
 Since these layouts run on your machine, they can be used simultaneously to any custom firmware you've installed on an external keyboard, no configuration necessary.
 
-Layout quick-links: 
+Documentation quick-links: 
 
 - [Dvorak International](#dvorak-international)
 - [30% International](#30-international)
