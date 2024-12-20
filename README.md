@@ -10,7 +10,7 @@ Layout quick-links:
 - [30% International](#30-international)
 - [Dvorak FR numbers](#dvorak-fr-numbers)
 - [Dvorak to QWERTY](#dvorak-to-qwerty)
-- [Arabic - Vowelized](#arabic--vowelized)
+- [Arabic - Vowelized](#arabic---vowelized)
 
 ## Installation
 
