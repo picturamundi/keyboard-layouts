@@ -6,7 +6,9 @@ Since these layouts run on your machine, they can be used simultaneously to any 
 
 ## Installation
 
-First, bundles need to be placed in the `/Library/Keyboard Layouts` directory.
+Select the layout you wish to install from the list of `.zip` files above, then click the download button on the top right. Unzipping the downloaded archive will reveal a file with the `.bundle`extension.
+
+Bundles need to be placed in the `/Library/Keyboard Layouts` directory.
 
 Restart your machine.
 
@@ -85,21 +87,19 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 [^1]: This layout originally included a number of other additional features for typing tricky characters from various European languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
 
 
-## Arabic - Vowelized
-
-[Download Arabic - Vowelized](https://github.com/picturamundi/keyboard-layouts/blob/main/Arabic%20-%20Vowelized.zip)
+## [Arabic - Vowelized](https://github.com/picturamundi/keyboard-layouts/blob/main/Arabic%20-%20Vowelized.zip)
 
 `Arabic - Vowelized` facilitates typing vowelized Arabic text on a QWERTY keyboard. Below is a summary of its 4 core features: 
 
 1. Based on QWERTY: `s` key outputs `س`, `n` key outputs `ن`, etc.
 2. Reduces the use of modifier keys for vowels and other diacritics.
     - Vowels are accessible without mods: `a` key outputs _fatha_ ` ـَ`, `i` key outputs _kasra_ `ـِ`, etc.
-    - Typing a _hamsa_ `ء` before letters _alif_ `ا`, _alif maqsuura_`ى`, or _waw_ `و`, will produce the corresponding characters with a _hamsa_ diacritic: `أ` `ئ` `ؤ`.
+    - Typing a _hamsa_ `ء` before letters _alif_ `ا`, _alif maqsuura _`ى`, or _waw_ `و`, will produce the corresponding characters with a _hamsa_ diacritic: `أ` `ئ` `ؤ`.
     - Modifiers continue to be used for `إ` (`Shift-i`) and nuntation `ـً` `ـٍ` `ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`).
 3. Aims to be phonetically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
     - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
     - Double consonants: typing `tt` will output `تّ`, etc.
     - Pharyngeal consonants: while lowercase `h` will output `ه`, uppercase `H` will output  `ح`, etc.
-4. Includes QWERTY-Commands: shortcuts like `Cmd-c` and `Cmd-v` still work.
+4. Includes QWERTY commands: shortcuts like `Cmd-c` and `Cmd-v` still work.
 
 Keep in mind that this layout was created with specifically the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels.
