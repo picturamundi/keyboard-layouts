@@ -87,6 +87,8 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 
 ## Arabic - Vowelized
 
+[Download Arabic - Vowelized](https://github.com/picturamundi/keyboard-layouts/edit/main/Arabic.md](https://github.com/picturamundi/keyboard-layouts/tree/main/Arabic%20-%20Vowelized.zip/)
+
 `Arabic - Vowelized` facilitates typing vowelized Arabic text on a QWERTY keyboard. Below is a summary of its 4 core features: 
 
 1. Based on QWERTY: `s` key outputs `س`, `n` key outputs `ن`, etc.
