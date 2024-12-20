@@ -44,6 +44,8 @@ The layout also includes QWERTY commands.
 - The layout offers the option to exclusively use alpha-block inputs for dead keys. This makes diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
 - `30% International` also includes one additional input not included in `U.S. International` in order to simplify typing typographic apostrophes[^1].
 
+[^1]: This layout originally included a number of other additional features for typing tricky characters from various European languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
+
 The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
 
 ### 30% diacritics
@@ -92,9 +94,6 @@ A few modifications have been made in order to make the number row more Dvorak c
 
 The layout achieves this conversion by mapping a QWERTY key's position to the QWERTY letter which occupies the position of that same key in the Dvorak layout.
 
-[^1]: This layout originally included a number of other additional features for typing tricky characters from various European languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
-
-
 ## [Arabic - Vowelized](https://github.com/picturamundi/keyboard-layouts/blob/main/Arabic%20-%20Vowelized.bundle.zip)
 
 `Arabic - Vowelized` facilitates typing vowelized Arabic text on a QWERTY keyboard. Below is a summary of its 4 core features: 
@@ -102,7 +101,7 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 1. Based on QWERTY: `s` key outputs `س`, `n` key outputs `ن`, etc.
 2. Reduces the use of modifier keys for vowels and other diacritics.
     - Vowels are accessible without mods: `a` key outputs _fatha_ ` ـَ`, `i` key outputs _kasra_ `ـِ`, etc.
-    - Typing a _hamsa_ `ء` before letters _alif_ `ا`, _alif maqsuura _`ى`, or _waw_ `و`, will produce the corresponding characters with a _hamsa_ diacritic: `أ` `ئ` `ؤ`.
+    - Typing a _hamsa_ `ء` before letters _alif_ `ا`, _alif maqsuura_ `ى`, or _waw_ `و`, will produce the corresponding characters with a _hamsa_ diacritic: `أ` `ئ` `ؤ`.
     - Modifiers continue to be used for `إ` (`Shift-i`) and nuntation `ـً` `ـٍ` `ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`).
 3. Aims to be phonetically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
     - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
