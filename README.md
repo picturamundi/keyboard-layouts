@@ -6,12 +6,13 @@ Since these layouts run on your macOS machine, they can be used simultaneously t
 
 ## Installation
 
-First, bundles need to be placed in the `/Library/Keyboard Layouts` directory. 
+First, bundles need to be placed in the `/Library/Keyboard Layouts` directory.
 
 Restart your machine.
 
-Then install the layout by navigating to `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate custom layouts in the bottommost `Others` category.
+Then install the layout by navigating to `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate and select custom layouts in the bottommost `Others` category. Once this is done, you should be able to switch to the custom layout by clicking on the keyboard input icon in the menubar.
 
+To visualize a layout after installing, click the keyboard input icon in the menubar and select  `Show Keyboard Viewer` from the dropdown menu.
 
 ## Dvorak International
 
@@ -51,7 +52,7 @@ New dead-key alternatives for hard-to-access keys include:
 - `;` for circumflex (`ê`)
 - `:` for tilde diacritic (`ñ`)
 
-Using punctuation symbols like comma, semi-colon, and colon as dead keys does not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids needing to hit the space bar twice in a row: once to termimate and again in order to insert the space caracter.
+Using punctuation symbols like comma, semi-colon, and colon as dead keys does not impact the usual flow of writing since a space is automatically inserted behind them when they are terminated (spaces aren't added when others dead keys are terminated). This avoids needing to hit the space bar twice in a row: once to terminate and again in order to insert the space character.
 
 Additional features:
 
@@ -81,4 +82,22 @@ A few modifications have been made in order to make the number row more Dvorak c
 
 The layout achieves this conversion by mapping a QWERTY key's position to the QWERTY letter which occupies the position of that same key in the Dvorak layout.
 
-[^1]: This layout originally included a number of other additional features for typing tricky caracters from various european languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
+[^1]: This layout originally included a number of other additional features for typing tricky characters from various European languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
+
+
+## Arabic - Vowelized
+
+`Arabic - Vowelized` facilitates typing vowelized Arabic text on a QWERTY keyboard. Below is a summary of its 4 core features: 
+
+1. Based on QWERTY: `s` key outputs `س`, `n` key outputs `ن`, etc.
+2. Reduces the use of modifier keys for vowels and other diacritics.
+    - Vowels are accessible without mods: `a` key outputs _fatha_ ` ـَ`, `i` key outputs _kasra_ `ـِ`, etc.
+    - Typing a _hamsa_ `ء` before letters _alif_ `ا`, _alif maqsuura_`ى`, or _waw_ `و`, will produce the corresponding characters with a _hamsa_ diacritic: `أ ئ ؤ`.
+    - Modifiers continue to be used for `إ` (`Shift-i`) and nuntation `ـً ـٍ ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`).
+3. Aims to be phonetically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
+    - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
+    - Double consonants: typing `tt` will output `تّ`, etc.
+    - Pharyngeal consonants: while lowercase `s` will output `س`, uppercase `S` will output  `ص`, etc.
+4. Includes QWERTY-Commands: shortcuts like `Cmd-c` and `Cmd-v` still work.
+
+Keep in mind that this layout was created with specifically the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels.
