@@ -1,8 +1,8 @@
 # Custom macOS keyboard layouts
 
-The following keyboard layouts offer practical functionality to Dvorak typists and users of small keyboards on macOS.
+The following keyboard layouts offer practical functionality to Dvorak typists, Arabic typists, and users of small keyboards on macOS.
 
-Since these layouts run on your macOS machine, they can be used simultaneously to any custom firmware you've installed on an external keyboard, no configuration necessary.
+Since these layouts run on your machine, they can be used simultaneously to any custom firmware you've installed on an external keyboard, no configuration necessary.
 
 ## Installation
 
@@ -92,12 +92,12 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 1. Based on QWERTY: `s` key outputs `س`, `n` key outputs `ن`, etc.
 2. Reduces the use of modifier keys for vowels and other diacritics.
     - Vowels are accessible without mods: `a` key outputs _fatha_ ` ـَ`, `i` key outputs _kasra_ `ـِ`, etc.
-    - Typing a _hamsa_ `ء` before letters _alif_ `ا`, _alif maqsuura_`ى`, or _waw_ `و`, will produce the corresponding characters with a _hamsa_ diacritic: `أ ئ ؤ`.
-    - Modifiers continue to be used for `إ` (`Shift-i`) and nuntation `ـً ـٍ ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`).
+    - Typing a _hamsa_ `ء` before letters _alif_ `ا`, _alif maqsuura_`ى`, or _waw_ `و`, will produce the corresponding characters with a _hamsa_ diacritic: `أ` `ئ` `ؤ`.
+    - Modifiers continue to be used for `إ` (`Shift-i`) and nuntation `ـً` `ـٍ` `ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`).
 3. Aims to be phonetically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
     - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
     - Double consonants: typing `tt` will output `تّ`, etc.
-    - Pharyngeal consonants: while lowercase `s` will output `س`, uppercase `S` will output  `ص`, etc.
+    - Pharyngeal consonants: while lowercase `h` will output `ه`, uppercase `H` will output  `ح`, etc.
 4. Includes QWERTY-Commands: shortcuts like `Cmd-c` and `Cmd-v` still work.
 
 Keep in mind that this layout was created with specifically the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels.
