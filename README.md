@@ -97,7 +97,7 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 3. Aims to be phonetically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
     - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
     - Double consonants: typing `tt` will output `تّ`, etc.
-    - Pharyngeal consonants: while lowercase `s` will output `س`, uppercase `S` will output  `ص`, etc.
+    - Pharyngeal consonants: while lowercase `h` will output `ه`, uppercase `H` will output  `ح`, etc.
 4. Includes QWERTY-Commands: shortcuts like `Cmd-c` and `Cmd-v` still work.
 
 Keep in mind that this layout was created with specifically the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels.
