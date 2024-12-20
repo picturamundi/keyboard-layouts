@@ -4,6 +4,14 @@ The following keyboard layouts offer practical functionality to Dvorak typists, 
 
 Since these layouts run on your machine, they can be used simultaneously to any custom firmware you've installed on an external keyboard, no configuration necessary.
 
+Layout quick-links: 
+
+- [Dvorak International](#dvorak-international)
+- [30% International](#30-international)
+- [Dvorak FR numbers](#dvorak-fr-numbers)
+- [Dvorak to QWERTY](#dvorak-to-qwerty)
+- [Arabic - Vowelizzed](#arabic-vowelized)
+
 ## Installation
 
 Select the layout you wish to install from the list of `.zip` files above, then click the download button on the top right or the `view raw` link. Unzipping the downloaded archive will reveal a file with the `.bundle`extension.
