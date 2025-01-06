@@ -100,16 +100,21 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 
 `Arabic - Vowelized` facilitates typing vowelized Arabic text on a QWERTY keyboard. Below is a summary of its 3 core features: 
 
-1. Based on QWERTY 
-    - The QWERTY `s` key outputs `س`, `n` key outputs `ن`, etc.
-    - Also includes QWERTY commands: shortcuts like `Cmd-c` and `Cmd-v` still work.
-2. Reduces the use of modifier keys for vowels and other diacritics.
-    - Vowels are accessible without mods: `a` key outputs _fatha_ ` ـَ`, `i` key outputs _kasra_ `ـِ`, etc.
-    - Typing a _hamza_ `ء` before letters _alif_ `ا`, _alif maqsura_ `ى`, or _waw_ `و`, will produce the corresponding characters with a _hamza_ diacritic: `أ` `ئ` `ؤ`.
-    - Modifiers continue to be used for nuntation `ـً` `ـٍ` `ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`) and `إ` (`Shift-i`). There is also the option to use `Shift-o` (i.e. `Shift-ء`) for `أ`.
-3. Aims to be phonetically and ergonomically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
-    - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `AA` will output long vowel `آ`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
-    - Double consonants: typing `tt` will output `تّ`, etc.
-    - Pharyngeal consonants: while lowercase `h` will output `ه`, uppercase `H` will output  `ح`, etc.
+\1. Based on QWERTY 
+
+- The QWERTY `s` key outputs `س`, `n` key outputs `ن`, etc.
+- Also includes QWERTY commands: shortcuts like `Cmd-c` and `Cmd-v` still work.
+    
+\2. Reduces the use of modifier keys for vowels and other diacritics.
+
+- Vowels are accessible without mods: `a` key outputs _fatha_ ` ـَ`, `i` key outputs _kasra_ `ـِ`, etc.
+- Typing a _hamza_ `ء` before letters _alif_ `ا`, _alif maqsura_ `ى`, or _waw_ `و`, will produce the corresponding characters with a _hamza_ diacritic: `أ` `ئ` `ؤ`.
+- Modifiers continue to be used for nuntation `ـً` `ـٍ` `ـٌ` (`Opt-a`, `Opt-i`, `Opt-u`) and `إ` (`Shift-i`). There is also the option to use `Shift-o` (i.e. `Shift-ء`) for `أ`.
+
+\3. Aims to be phonetically and ergonomically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.
+    
+- Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `AA` will output long vowel `آ`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
+- Double consonants: typing `tt` will output `تّ`, etc.
+- Pharyngeal consonants: while lowercase `h` will output `ه`, uppercase `H` will output  `ح`, etc.
 
 Keep in mind that this layout was created with the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels.
