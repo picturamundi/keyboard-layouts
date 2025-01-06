@@ -96,7 +96,7 @@ A few modifications have been made in order to make the number row more Dvorak c
 
 The layout achieves this conversion by mapping a QWERTY key's position to the QWERTY letter which occupies the position of that same key in the Dvorak layout.
 
-## [Arabic ––Vowelized](https://github.com/picturamundi/keyboard-layouts/blob/main/Arabic%20––20Vowelized.bundle.zip)
+## [Arabic – Vowelized](https://github.com/picturamundi/keyboard-layouts/blob/main/Arabic%20––20Vowelized.bundle.zip)
 
 `Arabic - Vowelized` facilitates typing vowelized Arabic text on a QWERTY keyboard. Below is a summary of its 3 core features: 
 
