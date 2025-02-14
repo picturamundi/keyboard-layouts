@@ -117,4 +117,4 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 - Double consonants: typing `tt` will output `تّ`, etc.
 - Pharyngeal consonants: while lowercase `d` will output `د`, uppercase `D` will output  `ض`, etc.
 
-Keep in mind that this layout was created with the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels.
+Keep in mind that this layout was created with the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels, to highlight two examples.
