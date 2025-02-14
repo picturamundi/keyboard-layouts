@@ -16,15 +16,15 @@ Documentation quick-links:
 
 ## Installation
 
-Select the layout you wish to install from the list of `.zip` files above or by clicking on the relevant heading in this document, then click the download button on the top right or the `view raw` link. Unzipping the downloaded archive will reveal a file with the `.bundle`extension.
+Select the layout you wish to install from the list of `.zip` files above (or by clicking on the relevant heading in this document), then hit the download button on the top right. Unzipping the downloaded archive will reveal a file with the `.bundle` extension.
 
 Bundles need to be placed in the `/Library/Keyboard Layouts` directory.
 
 Restart your machine.
 
-Then install the layout by navigating to `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate and select custom layouts in the bottommost `Others` category. Once this is done, you should be able to switch to the custom layout by clicking on the keyboard input icon in the menubar.
+Then install the layout by navigating to `System Settings > Keyboard > Keyboard layouts`. Click on the `+` button to add a new input source, then locate and select custom layouts in the bottommost `Others` category. Once this is done, you should be able to switch to the custom layout via the keyboard input icon in the menubar.
 
-To visualize a layout after installing, click the keyboard input icon in the menubar and select  `Show Keyboard Viewer` from the dropdown menu.
+To visualize a layout after installing, hit the keyboard input icon in the menubar and select `Show Keyboard Viewer` from the dropdown menu.
 
 ## [Dvorak International](https://github.com/picturamundi/keyboard-layouts/blob/main/Dvorak%20International.bundle.zip)
 
@@ -46,7 +46,7 @@ The layout also includes QWERTY commands.
 - The layout offers the option to exclusively use alpha-block inputs for dead keys. This makes diacritics more accessible than in `U.S. International`, where characters like caret `^` and tilde `~` are used.
 - `30% International` also includes one additional input not included in `U.S. International` in order to simplify typing typographic apostrophes[^1].
 
-[^1]: This layout originally included a number of other additional features for typing tricky characters from various European languages, such as guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
+[^1]: This layout originally included a number of other additional features for typing tricky characters like guillemets, non-breaking spaces, and narrow non-breaking spaces following certain punctuation marks. For various reasons, I now believe it is preferable to implement these features using text-replacement software, rather than baking them into keyboard firmware itself.
 
 The layout is meant to be used with external keyboards, and as such it is QWERTY; any alternate layouts can be implemented directly on the external keyboard's controller.
 
@@ -70,7 +70,7 @@ Using punctuation symbols like comma, semi-colon, and colon as dead keys does no
 
 Additional features:
 
-- The apostrophe key `'` produces a typographic apostrophe `’` (`U+2019`, or right single quotation mark) when tapped twice.
+- The apostrophe key `'` produces a typographic apostrophe `’` (or right single quotation mark, `U+2019`) when tapped twice.
 
 <!-- Perhaps ideally, these additional features should be implemented using text replacement software rather than directly in the layout:
 
