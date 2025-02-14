@@ -115,6 +115,6 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 
 - Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `AA` will output long vowel `آ`, typing `oo` will output long vowel `ـَوْ`, etc. 
 - Double consonants: typing `tt` will output `تّ`, etc.
-- Pharyngeal consonants: while lowercase `h` will output `ه`, uppercase `H` will output  `ح`, etc.
+- Pharyngeal consonants: while lowercase `d` will output `د`, uppercase `D` will output  `ض`, etc.
 
 Keep in mind that this layout was created with the Shuwa dialect of Arabic in mind. Among other things, this explains why the letter `ق` is mapped to `g` instead of `q`, or why there are long o and long e vowels.
