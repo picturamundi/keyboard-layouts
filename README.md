@@ -113,7 +113,7 @@ The layout achieves this conversion by mapping a QWERTY key's position to the QW
 
 **3\. Aims to be phonetically and ergonomically intuitive in how long vowels, double consonants, and pharyngeal consonants are typed.**
 
-- Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `AA` will output long vowel `آ`, typing `oo` will output a long o vowel `ـَوْ`, etc. 
+- Long vowels: typing `aa` will output a long a vowel `ـَا`, typing `AA` will output long vowel `آ`, typing `oo` will output long vowel `ـَوْ`, etc. 
 - Double consonants: typing `tt` will output `تّ`, etc.
 - Pharyngeal consonants: while lowercase `h` will output `ه`, uppercase `H` will output  `ح`, etc.
 
